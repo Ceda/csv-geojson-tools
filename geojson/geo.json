@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "name": "ZPK_O_Kont_TOitem_b",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.415381226000022, 50.077577450000035]
+      },
+      "properties": {
+        "OBJECTID": 19060,
+        "STATIONID": 3729,
+        "TRASHTYPENAME": "Barevné sklo",
+        "CLEANINGFREQUENCYCODE": 11,
+        "CONTAINERTYPE": "240 normální HV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[10, 0]]
+      },
+      "properties": {
+        "OBJECTID": 19061,
+        "STATIONID": 3731,
+        "TRASHTYPENAME": "Papír",
+        "CLEANINGFREQUENCYCODE": 11,
+        "CONTAINERTYPE": "240 normální HV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+      },
+      "properties": {
+        "OBJECTID": 19062,
+        "STATIONID": 3731,
+        "TRASHTYPENAME": "Barevné sklo",
+        "CLEANINGFREQUENCYCODE": 11,
+        "CONTAINERTYPE": "120 normální HV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.05, 48.99],
+            [-97.22, 48.98],
+            [-96.58, 45.94],
+            [-104.03, 45.94],
+            [-104.05, 48.99]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19063,
+        "STATIONID": 3731,
+        "TRASHTYPENAME": "Plast",
+        "CLEANINGFREQUENCYCODE": 11,
+        "CONTAINERTYPE": "240 normální HV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.410900862000062, 50.095301481000035]
+      },
+      "properties": {
+        "OBJECTID": 19064,
+        "STATIONID": 3732,
+        "TRASHTYPENAME": "Papír",
+        "CLEANINGFREQUENCYCODE": 11,
+        "CONTAINERTYPE": "120 normální HV"
+      }
+    }
+  ]
+}
