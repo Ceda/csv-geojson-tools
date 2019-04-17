@@ -9,11 +9,11 @@
         "coordinates": [14.415381226000022, 50.077577450000035]
       },
       "properties": {
-        "OBJECTID": 19060,
-        "STATIONID": 3729,
-        "TRASHTYPENAME": "Barevné sklo",
-        "CLEANINGFREQUENCYCODE": 11,
-        "CONTAINERTYPE": "240 normální HV"
+        "objectid": 19060,
+        "stationid": 3729,
+        "trashtypename": "Barevné sklo",
+        "cleaningfrequencycode": 11,
+        "containertype": "240 normální HV"
       }
     },
     {
@@ -31,11 +31,11 @@
         ]
       },
       "properties": {
-        "OBJECTID": 19061,
-        "STATIONID": 3731,
-        "TRASHTYPENAME": "Papír",
-        "CLEANINGFREQUENCYCODE": 11,
-        "CONTAINERTYPE": "240 normální HV"
+        "objectid": 19061,
+        "stationid": 3731,
+        "trashtypename": "Papír",
+        "cleaningfrequencycode": 11,
+        "containertype": "240 normální HV"
       }
     },
     {
@@ -45,11 +45,11 @@
         "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
       },
       "properties": {
-        "OBJECTID": 19062,
-        "STATIONID": 3731,
-        "TRASHTYPENAME": "Barevné sklo",
-        "CLEANINGFREQUENCYCODE": 11,
-        "CONTAINERTYPE": "120 normální HV"
+        "objectid": 19062,
+        "stationid": 3731,
+        "trashtypename": "Barevné sklo",
+        "cleaningfrequencycode": 11,
+        "containertype": "120 normální HV"
       }
     },
     {
@@ -67,11 +67,11 @@
         ]
       },
       "properties": {
-        "OBJECTID": 19063,
-        "STATIONID": 3731,
-        "TRASHTYPENAME": "Plast",
-        "CLEANINGFREQUENCYCODE": 11,
-        "CONTAINERTYPE": "240 normální HV"
+        "objectid": 19063,
+        "stationid": 3731,
+        "trashtypename": "Plast",
+        "cleaningfrequencycode": 11,
+        "containertype": "240 normální HV"
       }
     },
     {
@@ -81,11 +81,11 @@
         "coordinates": [14.410900862000062, 50.095301481000035]
       },
       "properties": {
-        "OBJECTID": 19064,
-        "STATIONID": 3732,
-        "TRASHTYPENAME": "Papír",
-        "CLEANINGFREQUENCYCODE": 11,
-        "CONTAINERTYPE": "120 normální HV"
+        "objectid": 19064,
+        "stationid": 3732,
+        "trashtypename": "Papír",
+        "cleaningfrequencycode": 11,
+        "containertype": "120 normální HV"
       }
     }
   ]

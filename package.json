@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@mapbox/geojson-normalize": "^0.0.1",
-    "csv2geojson": "^5.1.1",
+    "@mapbox/sexagesimal": "^1.1.0",
     "d3-dsv": "^1.1.1",
     "geojson-validation": "^0.2.1",
     "json-2-csv": "^3.5.0"

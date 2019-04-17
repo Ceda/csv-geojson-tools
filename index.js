@@ -14,15 +14,19 @@ const csvBuffer = fs.readFileSync(csvFile);
 
 const csvContent = csvBuffer.toString();
 
-var csv2geojson = require("csv2geojson");
+const csvGeojsonTools = require(path.resolve(
+  __dirname,
+  "./libs/csvGeojsonTools.js"
+));
 
 // csv2geojson.csv2geojson(csvContent, function(err, data) {
 //   console.log(data);
 // });
 
-const geoJsonFromCsv = csv2geojson.csv2geojson(csvContent, function(err, data) {
-  // err has any parsing errors
-  // data is the data.
+const geoJsonFromCsv = csvGeojsonTools.csv2geojson(csvContent, function(
+  err,
+  data
+) {
   console.log(data.features);
 });
 
@@ -47,7 +51,7 @@ const geoJsonFromCsv = csv2geojson.csv2geojson(csvContent, function(err, data) {
 // });
 
 // // Convert geojson to csv
-// const geojsonToCsv = require(path.resolve(__dirname, "./to-csv.js"));
+// const geojsonToCsv = require(path.resolve(__dirname, "./libs/geojson2csv.js"));
 //
 // const csvString = geojsonToCsv(content, ";");
 //
