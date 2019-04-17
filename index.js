@@ -19,10 +19,6 @@ const csvGeojsonTools = require(path.resolve(
   "./libs/csvGeojsonTools.js"
 ));
 
-// csv2geojson.csv2geojson(csvContent, function(err, data) {
-//   console.log(data);
-// });
-
 const geoJsonFromCsv = csvGeojsonTools.csv2geojson(csvContent, function(
   err,
   data
@@ -30,8 +26,9 @@ const geoJsonFromCsv = csvGeojsonTools.csv2geojson(csvContent, function(
   console.log(data.features);
 });
 
-// const geoJsonFromCsv = csv2geojson.auto(csvContent);
-// console.log(geoJsonFromCsv);
+const csvString = csvGeojsonTools.geojson2csv(content, ";");
+
+console.log(csvString);
 
 // // Json to CSV
 // const converter = require("json-2-csv");
@@ -49,10 +46,3 @@ const geoJsonFromCsv = csvGeojsonTools.csv2geojson(csvContent, function(
 //   console.log(valid);
 //   console.log(errs);
 // });
-
-// // Convert geojson to csv
-// const geojsonToCsv = require(path.resolve(__dirname, "./libs/geojson2csv.js"));
-//
-// const csvString = geojsonToCsv(content, ";");
-//
-// console.log(csvString);
